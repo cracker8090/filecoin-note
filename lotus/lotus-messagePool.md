@@ -1,6 +1,16 @@
+# 目录
+
+[toc] 
+
+
+
 # message Pool
 
 消息池（消息池）是Lotus的组件，它处理待处理的消息以包含在链中。消息直接添加到本地发布的消息或通过pubsub传播添加到mpool。每当矿工准备为技巧集创建块时，它都会调用mpool选择算法，该算法选择一组适当的消息，从而优化矿工的奖励和链条容量。
+
+[目录](#目录) 
+
+
 
 
 
@@ -66,6 +76,8 @@ lotus mpool config [<configuration>]
 lotus mpool clear [--local]
 //无条件清除来自mpool的挂起消息。警告：仅当换头错误使mpool处于状态时，才应使用此命令
 ```
+
+[目录](#目录) 
 
 
 
